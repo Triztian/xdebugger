@@ -24,22 +24,21 @@ This python script provides debugger interface to DBGp protocol.
     all the windows currently opened will be closed and debugger interface will be shown.
 
  3. **While debugging**  
-    `<F1>` : resizing windows
-    `<F2>` : step into
-    `<F3>` : step over
-    `<F4>` : step out
+    `<F1>` : resizing windows  
+    `<F2>` : step into  
+    `<F3>` : step over  
+    `<F4>` : step out  
 
-    `<F6>` : stop debugging
+    `<F6>` : stop debugging  
 
-    `<F11>` : shows all variables
-    `<F12>` : shows variable on current cursor 
+    `<F11>` : shows all variables  
+    `<F12>` : shows variable on current cursor   
 
-    `,e` : evalute expression and display result. cursor is automatically move to watch window. type line and just press enter.
-
+    `,e` : evalute expression and display result. cursor is automatically move to watch window. type line and just press enter.  
     **VIM Commands**  
-    `:Bp`    : toggle breakpoint on current line
-    `:Up`    : goto upper level of stack
-    `:Dn`    : goto lower level of stack
+    `:Bp`    : toggle breakpoint on current line  
+    `:Up`    : goto upper level of stack  
+    `:Dn`    : goto lower level of stack  
 
 ## Notes
 
